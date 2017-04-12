@@ -25,20 +25,12 @@
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
     //------Languages------
     //------JavaScript------
-    "[javascript]": {
-        "eslint.enable": true,
-        "no-undef": 1,
-        "no-unused-vars": 1,
-        "javascript.validate.enable": true,
-        "javascript.suggest.alwaysAllWords": true,
-        "javascript.suggest.useCodeSnippetsOnMethodSuggest": true
-    },
+    "eslint.enable": true,
+    "javascript.validate.enable": true,
     //------Python-----
-    "[python]": {
-        "python.linting.enabled": false
-    },
-    "[csharp]": {
+    "python.linting.enabled": false,
     //------C#------
+    "[csharp]": {
         "editor.codeLens": false
-    }
+    },
 }
