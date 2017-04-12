@@ -1,0 +1,41 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+.",
+        "command": "workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+^",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+Ã¤",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "runInTerminal.runLineInTerminal",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.terminal.runSelectedText",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+p",
+        "command": "python.execInTerminal",
+        "when": "editorTextFocus"
+    }
+]

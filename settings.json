@@ -1,0 +1,42 @@
+// Place your settings in this file to overwrite the default settings
+{
+    //------editor------
+    "editor.fontFamily": "Fira mono",
+    "editor.fontSize": 17,
+    "editor.wordWrap": "on",
+    "editor.scrollBeyondLastLine": false,
+    "editor.insertSpaces": true,
+    "editor.formatOnType": true,
+    "editor.tabCompletion": true,
+    "editor.snippetSuggestions": "inline",
+    "editor.dragAndDrop": true,
+    "editor.minimap.enabled": true,
+    //------JavaScript------
+    "[javascript]": {
+        "eslint.enable": true,
+        "no-undef": 1,
+        "no-unused-vars": 1,
+        "javascript.validate.enable": true,
+        "javascript.suggest.alwaysAllWords": true,
+        "javascript.suggest.useCodeSnippetsOnMethodSuggest": true
+    },
+    //------Python-----
+    "python.linting.enabled": false,
+    //------files------
+    "files.trimTrailingWhitespace": true,
+    //------C#------
+    "[csharp]": {
+        "editor.codeLens": false
+    },
+    // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
+    "window.zoomLevel": 0,
+    "editor.mouseWheelZoom": true,
+
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.renderWhitespace": "none",
+    "files.associations": {
+        "*.vert": "glsl"
+    }
+}
