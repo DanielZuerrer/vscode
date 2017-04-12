@@ -1,16 +1,29 @@
 // Place your settings in this file to overwrite the default settings
 {
-    //------editor------
+    //------editor-font------
     "editor.fontFamily": "Fira mono",
     "editor.fontSize": 17,
+    //------editor-display------
     "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 0,
+    //------editor-usability------
     "editor.scrollBeyondLastLine": false,
     "editor.insertSpaces": true,
     "editor.formatOnType": true,
     "editor.tabCompletion": true,
     "editor.snippetSuggestions": "inline",
-    "editor.dragAndDrop": true,
-    "editor.minimap.enabled": true,
+    //------Themes------
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Solarized Dark",
+    //------Files------
+    "files.trimTrailingWhitespace": true,
+    //------Terminal------
+    // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
+    //------Languages------
     //------JavaScript------
     "[javascript]": {
         "eslint.enable": true,
@@ -21,22 +34,11 @@
         "javascript.suggest.useCodeSnippetsOnMethodSuggest": true
     },
     //------Python-----
-    "python.linting.enabled": false,
-    //------files------
-    "files.trimTrailingWhitespace": true,
-    //------C#------
-    "[csharp]": {
-        "editor.codeLens": false
+    "[python]": {
+        "python.linting.enabled": false
     },
-    // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
-    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
-    "window.zoomLevel": 0,
-    "editor.mouseWheelZoom": true,
-
-    "workbench.iconTheme": "vscode-great-icons",
-    "workbench.colorTheme": "Solarized Dark",
-    "editor.renderWhitespace": "none",
-    "files.associations": {
-        "*.vert": "glsl"
+    "[csharp]": {
+    //------C#------
+        "editor.codeLens": false
     }
 }
