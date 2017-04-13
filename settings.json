@@ -22,7 +22,7 @@
     "files.trimTrailingWhitespace": true,
     //------Terminal------
     // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
-    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
+    // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
     //------Languages------
     //------JavaScript------
     "eslint.enable": true,
@@ -33,4 +33,17 @@
     "[csharp]": {
         "editor.codeLens": false
     },
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "#F3FF90",
+            "#FF8077",
+            "#4B8BCC",
+            "#4AB272",
+            "#FAC8CD"
+        ],
+        "Red"
+    ]
 }
