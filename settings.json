@@ -45,5 +45,9 @@
             "#FAC8CD"
         ],
         "Red"
-    ]
+    ],
+    "[fsharp]": {
+        "editor.fontFamily": "Fira Code",
+        "editor.fontLigatures": true
+    }
 }
