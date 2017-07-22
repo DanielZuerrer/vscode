@@ -33,6 +33,8 @@
     "[csharp]": {
         "editor.codeLens": false
     },
+    //------C++------
+    "C_Cpp.intelliSenseEngine": "Default",
     "bracketPairColorizer.consecutivePairColors": [
         "()",
         "[]",
@@ -49,5 +51,5 @@
     "[fsharp]": {
         "editor.fontFamily": "Fira Code",
         "editor.fontLigatures": true
-    }
+    },
 }
