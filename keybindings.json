@@ -37,5 +37,15 @@
         "key": "shift+alt+p",
         "command": "python.execInTerminal",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
