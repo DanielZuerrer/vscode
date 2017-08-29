@@ -1,40 +1,16 @@
-// Place your settings in this file to overwrite the default settings
 {
+    //------general------
+    "workbench.startupEditor": "welcomePage",
     //------editor-font------
-    "editor.fontFamily": "Fira mono",
-    "editor.fontSize": 17,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
     //------editor-display------
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.mouseWheelZoom": true,
     "window.zoomLevel": 0,
-    //------editor-usability------
-    "editor.scrollBeyondLastLine": false,
-    "editor.insertSpaces": true,
-    "editor.formatOnType": true,
-    "editor.tabCompletion": true,
-    "editor.snippetSuggestions": "inline",
-    //------Themes------
-    "workbench.iconTheme": "vscode-great-icons",
-    "workbench.colorTheme": "Solarized Dark",
-    //------Files------
-    "files.trimTrailingWhitespace": true,
-    //------Terminal------
-    // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
-    // "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
-    //------Languages------
-    //------JavaScript------
-    "eslint.enable": true,
-    "javascript.validate.enable": true,
-    //------Python-----
-    "python.linting.enabled": false,
-    //------C#------
-    "[csharp]": {
-        "editor.codeLens": false
-    },
-    //------C++------
-    "C_Cpp.intelliSenseEngine": "Default",
     "bracketPairColorizer.consecutivePairColors": [
         "()",
         "[]",
@@ -48,8 +24,37 @@
         ],
         "Red"
     ],
-    "[fsharp]": {
-        "editor.fontFamily": "Fira Code",
-        "editor.fontLigatures": true
+    //------editor-usability------
+    "editor.dragAndDrop": false,
+    "editor.scrollBeyondLastLine": false,
+    "editor.insertSpaces": true,
+    "editor.formatOnType": true,
+    "editor.tabCompletion": true,
+    "editor.snippetSuggestions": "inline",
+    //------Themes------
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Solarized Dark",
+    //------Files------
+    "files.trimTrailingWhitespace": true,
+    //------Languages------
+    //------JavaScript------
+    "eslint.enable": true,
+    "javascript.validate.enable": true,
+    //------Python-----
+    "python.linting.enabled": false,
+    "[csharp]": {
+        "editor.codeLens": false
     },
+    //------Terminal------
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    //------MSSQL------
+    "mssql.connections": [
+        {
+            "server": "srv-sql03",
+            "database": "dev-devinite",
+            "authenticationType": "Integrated",
+            "profileName": "srv-sql03",
+            "password": ""
+        }
+    ]
 }
