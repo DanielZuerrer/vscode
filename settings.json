@@ -1,6 +1,6 @@
 {
     //------general------
-    "workbench.startupEditor": "welcomePage",
+    "workbench.startupEditor": "newUntitledFile",
     //------editor-font------
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -8,7 +8,10 @@
     //------editor-display------
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
-    "editor.renderWhitespace": "none",
+    "editor.renderWhitespace": "all",
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#FFFFFF10"
+    },
     "editor.mouseWheelZoom": true,
     "window.zoomLevel": 0,
     "bracketPairColorizer.consecutivePairColors": [
@@ -31,20 +34,33 @@
     "editor.formatOnType": true,
     "editor.tabCompletion": true,
     "editor.snippetSuggestions": "inline",
+    //------Powermode------
+    "powermode.enabled": true,
+    "powermode.backgroundMode": "mask",
+    "powermode.shakeIntensity": 1,
+    "powermode.explosionSize": 20,
     //------Themes------
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.colorTheme": "Solarized Dark",
     //------Files------
     "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "*.yaml.template": "yaml",
+        "Dockerfile*": "dockerfile"
+    },
+    //------Git------
+    "git.path": "C:\\Users\\Git\\cmd\\git.exe",
     //------Languages------
     //------JavaScript------
-    "eslint.enable": true,
-    "javascript.validate.enable": true,
+    "eslint.autoFixOnSave": true,
+    "files.autoSave": "off",
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": true,
     //------Python-----
-    "python.linting.enabled": false,
-    "[csharp]": {
-        "editor.codeLens": false
-    },
+    "python.linting.enabled": true,
+    // "python.pythonPath": "C:\\Python27",
+    "python.pythonPath": "C:\\Users\\daniel.zuerrer\\AppData\\Local\\Programs\\Python\\Python36",
     //------Terminal------
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     //------MSSQL------
